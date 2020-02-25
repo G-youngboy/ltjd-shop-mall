@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path" : "pages/classify/index",
+			"style" : {
+				"navigationBarTitleText":"商品分类"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "兰天家电"
+			}
+		},
+		{
+			"path" : "pages/cart/index",
+			"style" : {
+				"navigationBarTitleText":"商品分类"
+			}
+		},
+		{
+			"path":"pages/mine/index",
+			"style": {
+				"navigationBarTitleText":"商品分类"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#F1F1F1",
+		"selectedColor":"#007AFF",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tab/home_off.png",
+				"selectedIconPath":"static/tab/home_on.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/classify/index",
+				"iconPath":"static/tab/classify_off.png",
+				"selectedIconPath":"static/tab/classify_on.png",
+				"text":"分类"
+			},
+			{
+				"pagePath":"pages/cart/index",
+				"iconPath":"static/tab/cart_off.png",
+				"selectedIconPath":"static/tab/cart_on.png",
+				"text":"购物车"
+			},
+			{
+				"pagePath":"pages/mine/index",
+				"iconPath":"static/tab/mine_off.png",
+				"selectedIconPath":"static/tab/mine_on.png",
+				"text":"我的"
+			}
+		]
+	}
+}
